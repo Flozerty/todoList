@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#todo {
+  width: 80%;
+  margin: 5% 10%;
+}
+
+#btn {
+  width: 100%;
+}
+
+#todoCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.todoCard {
+  border: 2px solid grey;
+  border-radius: 2px;
+  height: 250px;
+  padding: 5px;
+  margin: 5px;
+  position: relative;
+}
+
+.task {
+  height: 100%;
+  width: 100%;
+  border: none;
+  resize: none;
+}
+
+.delBtn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
